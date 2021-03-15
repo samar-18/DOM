@@ -1,0 +1,71 @@
+
+img{
+    max-width: 200px!important; 
+    max-height: 200px!important; 
+  } 
+  
+  th{
+      color: rgb(8, 6, 8);
+      padding: 55px;
+      text-align: left;
+    }
+    h4{
+        margin-top: 30px;
+    }
+ 
+h3{
+    color: rgb(199, 192, 245) ;
+}
+
+*{font-family: "roboto";
+    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+  }
+
+.container-panier{
+  width:80%;
+   margin-left:10%;
+padding-top: 30px;
+}
+.container-total{width:20%;
+border-radius: 10px;
+justify-content:center;
+margin-left:40%;
+border:  1px solid white;
+
+}
+.card-img{width: 100px;
+  height:100px;
+}
+.div-dt{display: flex;
+  justify-content: stretch;
+margin-left: 20px;}
+  
+.col-btn{display: flex;
+  justify-content: start;
+width: 50px;
+
+}
+.btn{
+    color: white;
+  background: rgb(199, 192, 245);}
+.remove{
+    background-color: black;
+  font-size: 20px;
+  border: none;
+  text-align: center;
+  color: white;
+margin-top: 30px;
+border-radius: 10px;
+}
+
+
+  .like{background-color:var(--bs-table-bg) ;
+    font-size:100%;
+    margin-top: 30px;
+  border: none;}
+  .like.active{
+    color: red;
+  }
